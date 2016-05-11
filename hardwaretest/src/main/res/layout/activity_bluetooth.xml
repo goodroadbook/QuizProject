@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text=" [ 블루투스 상태 표시  ] "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/btstatetxt"
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/scanbt"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="블루투스 검색하기"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text=" [ 연결 대상 블루투스 정보  ] "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/btdevice"
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:text="없음"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/conbt"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="블루투스 연결하기"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editmsg"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/sendmsg"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="메시지 보내기"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/btmsg"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="없음"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+</LinearLayout>
+

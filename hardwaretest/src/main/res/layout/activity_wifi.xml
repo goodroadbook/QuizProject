@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text=" [ Wi-Fi ON/OFF 설정하기 ] "
+        android:textStyle="bold"
+        />
+
+    <ToggleButton
+        android:id="@+id/tbutton"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" [차단 AP 입력 ]"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/apname"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        />
+
+    <Button
+        android:id="@+id/apbtn"
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:text="입력된 AP 차단하기"
+        />
+
+</LinearLayout>
+

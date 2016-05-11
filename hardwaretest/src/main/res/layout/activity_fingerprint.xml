@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="[ 지문 인식 ]"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="[ 단말 지문 인식 지원 여부 ]"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/fingerstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="[ 지문 등록 여부 ]"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/fingerregstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="[ 지문 및 비밀번호 일치 여부 ]"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/authstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+

@@ -1,0 +1,1 @@
+include ':app', ':calculatorui', ':preferencetest', ':networkcheck', ':testhandler', ':mediamanager', ':pushtest', ':hybridtest', ':hardwaretest', ':widgettest', ':ndktest'
